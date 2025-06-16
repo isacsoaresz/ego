@@ -1,0 +1,77 @@
+.vip-message{
+    display: flex;
+    background-color: var(--cor-vip);
+    padding: 12px 20px;
+    margin: 24px 0;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.089);
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.vip-message h2 {
+    margin: 0;
+}
+
+.vip-message a {
+    width: 200px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 6px;
+    padding: 12px;
+    color: #ffc400;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vip-message a:hover {
+    background-color: rgb(245, 245, 245);
+    transition: 0.3s;
+}
+
+.vip-message2 {
+
+    display: flex;
+    background-color: rgb(38, 159, 230);
+    padding: 12px 20px;
+    margin: 24px 0;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.089);
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.vip-message2 h2 {
+    margin: 0;
+}
+
+.vip-message2 a {
+    width: 200px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 6px;
+    padding: 12px;
+    color: rgb(38, 159, 230);
+    font-weight: bold;
+    text-align: center;
+}
+
+.vip-message2 a:hover {
+    background-color: rgb(245, 245, 245);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+    .vip-message {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vip-message2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
